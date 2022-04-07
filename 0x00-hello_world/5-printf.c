@@ -1,7 +1,9 @@
 #include <stdio.h>
-/*
- * prints exactly 'with proper grammar, but the outcome is a piece of art,' followed by a new line.
- * returns 0 if successful, othewise non-zero
+
+/**
+ * main - prints exactly 'with proper grammar, but the outcome is a
+ * piece of art,' followed by a new line.
+ * Return: 0 if successful, othewise non-zero
  */
 int main(void)
 {
