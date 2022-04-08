@@ -16,6 +16,6 @@ int main(void)
 		/* increment by 1 */
 		alpha++;
 	}
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
