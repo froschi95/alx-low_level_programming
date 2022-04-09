@@ -9,7 +9,6 @@
 int main(void)
 {
 	/* Using ASCII values of 0 - 9 */
-	
 	int num = 48;
 
 	while (num < 58)
