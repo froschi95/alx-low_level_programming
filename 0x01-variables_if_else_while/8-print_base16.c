@@ -16,8 +16,9 @@ int main(void)
 	while (num < 58)
 	{
 		putchar(num);
-		num++
+		num++;
 	}
+
 	while (ch <= 'f')
 	{
 		putchar(ch);
