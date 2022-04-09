@@ -8,13 +8,21 @@
 
 int main(void)
 {
-	char alpha;
+	char low = 'a';
+	char upp = 'A';
 
-	for (alpha = ‘a’; alpha <= ‘z’; alpha++)
-		putchar(alpha);
+	while (low <= 'z')
+	{
+		putchar(low);
+		low++;
+	}
 
-	for (alpha = ‘A’; alpha <= ‘Z’; alpha++)
-		putchar(alpha);
+	while (upp <= 'Z')
+	{
+		putchar(upp);
+		upp++;
+	}
+
 	putchar('\n');
 	return (0);
 }

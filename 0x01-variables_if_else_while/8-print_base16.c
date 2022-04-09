@@ -8,16 +8,21 @@
 
 int main(void)
 {
-	int num;
+	int num = 48;
 
-	char ch;
+	char ch = 'a';
 
 	/* Using the ASCII value of 0 - 9*/
-
-	for (num = 48; num < 58; num++)
+	while (num < 58)
+	{
 		putchar(num);
-	for (ch = ‘a’; ch <= ‘f’; ch++)
+		num++
+	}
+	while (ch <= 'f')
+	{
 		putchar(ch);
+		ch++;
+	}
 	putchar('\n');
 	return (0);
 }
