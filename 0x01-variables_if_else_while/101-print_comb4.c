@@ -9,15 +9,16 @@
 int main(void)
 {
 	int i, j, n;
+
 	i = 48;
 	j = 48;
 	n = 48;
 
 	while (n < 58)
 	{
-		while ( j < 58)
+		while (j < 58)
 		{
-			while ( i < 58)
+			while (i < 58)
 			{
 				if (i > j && j > n)
 				{
