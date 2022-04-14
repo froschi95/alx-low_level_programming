@@ -10,19 +10,19 @@ void jack_bauer(void)
 {
 	int hour_tn, hour_un, min_tth, min_hth;
 
-	hour_tn = hour_un = min_tth = min_hth = 0;
+	hour_tn = hour_un = min_tth = min_hth = '0';
 
-	while (hour_tn <= 2)
+	while (hour_tn <= '2')
 	{
-		while (hour_un <= 9)
+		while (hour_un <= '9')
 		{
-			if (hour_tn == 2 && hour_un > 3)
+			if (hour_tn == '2' && hour_un > '3')
 			{
 				break;
 			}
-			while (min_tth <= 5)
+			while (min_tth <= '5')
 			{
-				while (min_hth <= 9)
+				while (min_hth <= '9')
 				{
 					_putchar(hour_tn);
 					_putchar(hour_un);
