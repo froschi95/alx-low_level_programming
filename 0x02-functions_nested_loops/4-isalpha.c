@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * isalpha.c - checks for alphabetic characters
+ * _isalpha.c - checks for alphabetic characters
+ * @c: represents any argument passed to the function
  * Return: 1 if it's a letter(lower or upper), 0 otherwise
  */
 
@@ -11,7 +12,7 @@ int _isalpha(int c)
 	{
 		return (1);
 	}
-	else if (c >='A' && c <= 'Z')
+	else if (c >= 'A' && c <= 'Z')
 	{
 		return (1);
 	}
