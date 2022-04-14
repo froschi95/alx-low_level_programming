@@ -16,10 +16,17 @@ void times_table(void)
 	{
 		while (m < 10)
 		{
-			_putchar(n * m);
-			_putchar(',');
-			_putchar(' ');
-			if ((int) log10(n * m) == 1)
+			if (m != 9)
+			{
+				_putchar((n * m) + '0');
+				_putchar(',');
+				_putchar(' ');
+			}
+			else if (m == 9)
+			{
+				_putchar((n * m) + '0');
+			}
+			if (n * m < 10)
 			{
 				_putchar(' ');
 			}
