@@ -26,11 +26,11 @@ void print_to_98(int n)
 			printf("%d, ", n);
 			n--;
 		}
-		printf('\n');
+		printf("\n");
 	}
 	else
 	{
 		printf("%d, ", n);
-		printf("\n")
+		printf("\n");
 	}
 }
