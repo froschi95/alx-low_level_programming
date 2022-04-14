@@ -14,14 +14,17 @@ void jack_bauer(void)
 
 	while (hour_tn <= '2')
 	{
+		hour_un = 0;
 		while (hour_un <= '9')
 		{
 			if (hour_tn == '2' && hour_un > '3')
 			{
 				break;
 			}
+			min_tth = 0;
 			while (min_tth <= '5')
 			{
+				minhth = 0;
 				while (min_hth <= '9')
 				{
 					_putchar(hour_tn);
