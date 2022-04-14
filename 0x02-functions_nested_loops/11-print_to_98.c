@@ -2,6 +2,7 @@
 
 /**
  * print_to_98 - prints all natural numbers from n to 98
+ * @n: integer argument passed to the function
  * followed by a new line
  * Return: void
  */
