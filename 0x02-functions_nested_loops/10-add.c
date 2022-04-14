@@ -4,10 +4,10 @@
  * add - adds two integers and returns the result.
  * @n: integer argument
  * @m: integer argument
- * Returns integer
+ * Return: integer
  */
 
-int add (int n, int m)
+int add(int n, int m)
 {
 	int result;
 
