@@ -22,14 +22,15 @@ void times_table(void)
 				_putchar((n * m) + '0');
 				_putchar(',');
 				_putchar(' ');
+
+				if (n * m < 10)
+				{
+					_putchar(' ');
+				}
 			}
-			else if (m == 9)
+			else
 			{
 				_putchar((n * m) + '0');
-			}
-			if (n * m < 10)
-			{
-				_putchar(' ');
 			}
 			m++;
 		}

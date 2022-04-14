@@ -24,7 +24,7 @@ void jack_bauer(void)
 			min_tth = 0;
 			while (min_tth <= '5')
 			{
-				minhth = 0;
+				min_hth = 0;
 				while (min_hth <= '9')
 				{
 					_putchar(hour_tn);
