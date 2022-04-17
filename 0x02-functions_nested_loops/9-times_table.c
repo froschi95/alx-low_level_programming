@@ -22,25 +22,25 @@ void times_table(void)
 
 			if (m == 0)
 			{
-				putchar('0');
+				_putchar('0');
 			}
 			else if (p < 10)
 			{
-				putchar(',');
-				putchar(' ');
-				putchar(' ');
-				putchar(units + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(units + '0');
 			}
 			else
 			{
-				putchar(',');
-				putchar(' ');
-				putchar(tens + '0');
-				putchar(units + '0');
+				_putchar(',');
+				_putchar(' ');
+				_putchar(tens + '0');
+				_putchar(units + '0');
 			}
 			m++;
 		}
-		putchar('\n');
+		_putchar('\n');
 		n++;
 	}
 }
