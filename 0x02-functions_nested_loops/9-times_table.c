@@ -7,34 +7,40 @@
 
 void times_table(void)
 {
-	int n;
-	int m;
+	int n, m, p, tens, units;
 
-	n = m = 0;
+	n = 0;
 
 	while (n < 10)
 	{
 		m = 0;
 		while (m < 10)
 		{
-			if (m != 9)
-			{
-				_putchar((n * m) + '0');
-				_putchar(',');
-				_putchar(' ');
+			p = n * m;
+			tens = p / 10;
+			units = p % 10;
 
-				if (n * m < 10)
-				{
-					_putchar(' ');
-				}
+			if (m == 0)
+			{
+				putchar('0');
+			}
+			else if (p < 10)
+			{
+				putchar(',');
+				putchar(' ');
+				putchar(' ');
+				putchar(units + '0');
 			}
 			else
 			{
-				_putchar((n * m) + '0');
+				putchar(',');
+				putchar(' ');
+				putchar(tens + '0');
+				putchar(units + '0');
 			}
 			m++;
 		}
-		_putchar('\n');
+		putchar('\n');
 		n++;
 	}
 }

@@ -10,28 +10,28 @@ void jack_bauer(void)
 {
 	int hour_tn, hour_un, min_tth, min_hth;
 
-	hour_tn = hour_un = min_tth = min_hth = '0';
+	hour_tn = 0;
 
-	while (hour_tn <= '2')
+	while (hour_tn < 3)
 	{
 		hour_un = 0;
-		while (hour_un <= '9')
+		while (hour_un < 10)
 		{
-			if (hour_tn == '2' && hour_un > '3')
+			if (hour_tn == 2 && hour_un > 3)
 			{
 				break;
 			}
 			min_tth = 0;
-			while (min_tth <= '5')
+			while (min_tth < 6)
 			{
 				min_hth = 0;
-				while (min_hth <= '9')
+				while (min_hth < 10)
 				{
-					_putchar(hour_tn);
-					_putchar(hour_un);
+					_putchar(hour_tn + 48);
+					_putchar(hour_un + 48);
 					_putchar(':');
-					_putchar(min_tth);
-					_putchar(min_hth);
+					_putchar(min_tth + 48);
+					_putchar(min_hth + 48);
 					_putchar('\n');
 					min_hth++;
 				}
