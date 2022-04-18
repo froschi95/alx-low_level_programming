@@ -10,9 +10,9 @@ int main(void)
 {
 	unsigned long int sum_3s, sum_5s, total;
 	int n;
-	
+
 	sum_3s = sum_5s = total = 0;
-	
+
 	while (n < 1024)
 	{
 		if (n % 3 == 0)
