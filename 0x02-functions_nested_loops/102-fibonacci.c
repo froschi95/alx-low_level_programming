@@ -23,6 +23,7 @@ int main(void)
 			printf("%d\n", fibonach(i));
 		}
 	}
+	return (0);
 }
 
 int fibonach(int i)
