@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - checks for a digit
- * @c - argument passed to the function
+ * @c: argument passed to the function
  * Return: 1 if true or 0 otherwise
  */
 
