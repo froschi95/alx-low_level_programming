@@ -25,7 +25,7 @@ int main(void)
 		k = next_fib;
 	}
 
-	printf("%lu\n", sum);
+	printf("%lu\n", total);
 
 	return (0);
 }
