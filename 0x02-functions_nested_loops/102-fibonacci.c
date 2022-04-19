@@ -7,33 +7,27 @@
  * Return: 0 Always for Success
  */
 
-int fibonach(int i);
-
 int main(void)
 {
-	int i;
+	long int i, j, k, fibo;
 
-	for (i=1; i<=50; i++)
+	j = 1;
+
+	k = 2;
+
+	for (i = 1; i <= 50; ++i)
 	{
 		if (i != 50)
 		{
-			printf("%d, ", fibonach(i));
+			printf("%ld, ", j);
+		} else
+		{
+			printf("%ld\n", j);
 		}
-		else {
-			printf("%d\n", fibonach(i));
-		}
+		fibo = j + k;
+		j = k;
+		k = fibo;
 	}
-	return (0);
-}
 
-int fibonach(int i)
-{
-	if (i == 1)
-	{
-		return (1);
-	}
-	else
-	{
-		return fibonach(i-1) + fibonach(i-2);
-	}
+	return (0);
 }
