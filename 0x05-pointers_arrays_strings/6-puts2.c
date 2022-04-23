@@ -9,10 +9,7 @@
 
 void puts2(char *str)
 {
-	int n, len;
-
-	/* Get the length of the string */
-	len = _strlen(str);
+	int n;
 
 	n = 0;
 	while (str[n] != '\0')
