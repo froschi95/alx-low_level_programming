@@ -17,7 +17,6 @@ void rev_string(char *s)
 	{
 		len++;
 	}
-	len--;
 
 	/* Set start and end pointers to the begining of the string*/
 
