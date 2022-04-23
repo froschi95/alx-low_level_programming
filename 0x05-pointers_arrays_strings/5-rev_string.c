@@ -12,7 +12,12 @@ void rev_string(char *s)
 	char *start, *end, temp;
 
 	/* get length of the string*/
-	len = _strlen(s);
+	len = 0;
+	while (s != 0)
+	{
+		len++;
+	}
+	len--;
 
 	/* Set start and end pointers to the begining of the string*/
 
