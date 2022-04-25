@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * rot13 - encodes a string using rot13
  * @s: string to encoded
@@ -9,7 +10,7 @@ char *rot13(char *s)
 {
 	int i, j;
 
-	char alph[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	char alpha[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
 	char rot13[] = "nopqrstuvwxyzabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
