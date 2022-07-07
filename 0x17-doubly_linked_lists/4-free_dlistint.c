@@ -6,14 +6,14 @@
  * Return: nada
  */
 
-void free_dlistint(dlistint_t *head)
+dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
-    dlistint_t *temp;
+	for (; index != 0; index--)
+	{
+		if (head == NULL)
+			return (NULL);
+		head = head->next;
+	}
 
-    while (head)
-    {
-        temp = head->next;
-        free(head);
-        head = temp;
-    }
+	return (head);
 }
