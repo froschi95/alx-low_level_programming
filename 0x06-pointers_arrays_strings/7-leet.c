@@ -6,7 +6,7 @@
  * Return: encoded string
  */
 
-char *leet(char *s)
+char *leet(char *c)
 {
     char *cp = c;
 	char key[] = {'A', 'E', 'O', 'T', 'L'};
