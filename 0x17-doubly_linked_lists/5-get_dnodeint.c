@@ -7,7 +7,7 @@
  * Return: If the node doesn't exist, NULL,
  * otherwise, the address of the located node.
  */
- 
+
 dlistint_t *get_dnodeint_at_index(dlistint_t *head, unsigned int index)
 {
 	for (; index != 0; index--)
