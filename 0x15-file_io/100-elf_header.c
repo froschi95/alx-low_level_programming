@@ -92,7 +92,7 @@ void print_class(unsigned char *e_ident)
  * print_data - Prints the data of an ELF header
  * @e_ident: A pointer to an array containing the ELF class
  */
- 
+
 void print_data(unsigned char *e_ident)
 {
 	printf("  Data:                              ");
@@ -273,7 +273,7 @@ void close_elf(int elf)
  * @argv: An array of pointers to the arguments.
  * Return: 0 on success, otherwise exit code 98.
  */
- 
+
 int main(int __attribute__((__unused__)) argc, char *argv[])
 {
 	Elf64_Ehdr *header;
